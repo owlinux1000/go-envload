@@ -6,9 +6,6 @@ import (
 	"github.com/owlinux1000/go-envload"
 )
 
-type Config struct {
-}
-
 func main() {
 	var cfg struct {
 		User     string `env:"USER"`
